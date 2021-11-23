@@ -1,0 +1,23 @@
+@import "../../assets/Main.scss";
+
+h1 {
+  font-size: $intros-fz;
+}
+
+.roteted {
+  position: relative;
+}
+
+.roteted::after {
+  margin-left: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 90%;
+  width: 100%;
+  z-index: -1;
+  transform: scale(1.07, 1.05) skewX(-15deg);
+  background-color: $main-purple;
+}

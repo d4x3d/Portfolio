@@ -1,4 +1,4 @@
-@import "../../assets/Main.scss";
+@import "../../../assets/Main.scss";
 
 h1 {
   font-size: $intros-fz;
@@ -20,4 +20,14 @@ h1 {
   z-index: -1;
   transform: scale(1.07, 1.05) skewX(-15deg);
   background-color: $main-purple;
+}
+
+.main-title {
+  margin-bottom: 100px;
+  margin-top: 130px;
+}
+
+.main-details {
+  width: 1100px;
+  height: 180px;
 }

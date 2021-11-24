@@ -1,0 +1,22 @@
+@import "../../../assets/Main.scss";
+
+.pic-container {
+  margin-top: 118px;
+  position: relative;
+
+  .rectangle {
+    width: 530px;
+    height: 95px;
+    background-color: $main-grey;
+    border-radius: 50px;
+    transform: rotate(-20deg);
+  }
+  .purple {
+    background-color: $main-purple;
+  }
+
+  .portfolio-img {
+    position: absolute;
+    top: 0;
+  }
+}

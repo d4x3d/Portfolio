@@ -9,7 +9,7 @@ function MainBody() {
           Front-End Web Developer
         </h1>
       </div>
-      <div className="main-details">
+      <div className="main-details d-block md-3">
         <h3 className="main-details__text">
           Lorem ih3sum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

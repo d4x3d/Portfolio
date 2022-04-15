@@ -1,14 +1,13 @@
 @import "../../../assets/Main.scss";
 
 .pic-container {
-  margin-top: 118px;
   position: relative;
 
   .rectangle {
-    width: 530px;
-    height: 95px;
+    width: 45rem;
+    height: 7rem;
     background-color: $main-grey;
-    border-radius: 50px;
+    border-radius: 5rem;
     transform: rotate(-20deg);
   }
   .purple {
@@ -18,5 +17,9 @@
   .portfolio-img {
     position: absolute;
     top: 0;
+  }
+
+  .portolio-img {
+    width: 45rem;
   }
 }

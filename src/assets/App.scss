@@ -1,14 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import "../index.scss";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
+
+  @include respond(phone) {
+    font-size: 32%;
+  }
+}
 
 body {
   margin: 0;
   padding: 0;
   font-family: $font-family;
-  box-sizing: border-box;
-  margin-left: 133px;
+  font-weight: 400;
+  font-size: 1.6rem;
 }
 
-html {
-  margin: 0;
-  padding: 0;
+.ml-4 {
+  margin-left: 4rem;
+}
+.mr-4 {
+  margin-right: 4rem;
 }

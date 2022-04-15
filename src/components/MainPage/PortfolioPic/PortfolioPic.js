@@ -11,8 +11,8 @@ function PortfolioPic() {
       <div className="rectangle"></div>
       <div className="rectangle purple"></div>
       <div className="rectangle purple"></div>
-      <div className="portfolio-img">
-        <img src={Portfolio} />
+      <div className="portfolio-img d-flex align-items-center">
+        <img className="portolio-img" src={Portfolio} />
       </div>
     </div>
   );

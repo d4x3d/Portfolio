@@ -6,7 +6,7 @@ import PortfolioPic from "./PortfolioPic/PortfolioPic";
 
 function MainPage() {
   return (
-    <div className="d-flex align-items-center">
+    <div className="d-flex align-items-center main-page">
       <div>
         <div className="ml-4">
           <SocialMediaContainer />

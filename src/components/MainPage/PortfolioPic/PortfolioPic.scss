@@ -1,25 +1,21 @@
 @import "../../../assets/Main.scss";
 
-.pic-container {
+.img-conteiner {
   position: relative;
+}
 
-  .rectangle {
-    width: 45rem;
-    height: 7rem;
-    background-color: $main-grey;
-    border-radius: 5rem;
-    transform: rotate(-20deg);
-  }
-  .purple {
-    background-color: $main-purple;
-  }
+.portfolio-img {
+  width: 35rem;
+  z-index: 100;
+  box-shadow: 0.8rem 0.8rem 1rem 0.6rem rgba(9, 6, 101, 0.1);
+}
 
-  .portfolio-img {
-    position: absolute;
-    top: 0;
-  }
-
-  .portolio-img {
-    width: 45rem;
-  }
+.img-border {
+  position: absolute;
+  width: 35rem;
+  height: 47rem;
+  border: 0.1rem solid rgba(150, 89, 89, 0.537);
+  top: 2rem;
+  left: 2.8rem;
+  z-index: 0;
 }

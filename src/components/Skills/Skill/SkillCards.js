@@ -1,12 +1,15 @@
 import React from "react";
-import "./SkillCard.scss";
+import "./SkillCards.scss";
 import { developSkills, styleSkills } from "../../../assets/helpers/variables";
 
-function SkillCard() {
+function SkillCards() {
   function handleSkillsCards(skills) {
     let card = skills.map((skill, index) => {
       return (
-        <div key={index} className="d-flex align-items-center">
+        <div
+          key={index}
+          className="d-flex align-items-center justify-content-center col"
+        >
           <div className="skill-card">
             <img
               src={skill.logo}
@@ -25,14 +28,14 @@ function SkillCard() {
 
   return (
     <div className="w-100">
-      <div className="developer-skills-container">
+      <div className="developer-skills-container row">
         {handleSkillsCards(developSkills)}
       </div>
-      <div className="style-skills-container">
+      <div className="style-skills-container row">
         {handleSkillsCards(styleSkills)}
       </div>
     </div>
   );
 }
 
-export default SkillCard;
+export default SkillCards;

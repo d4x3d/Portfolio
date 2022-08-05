@@ -1,12 +1,14 @@
 @import "../../../assets/globals/variables";
 
 .skills-container {
-  position: fixed;
+  position: absolute;
+  // transform: translateY(-50%);
+  // top: 50%;
   background-color: $main-grey;
-  height: 80vh;
   width: 100%;
-  margin-top: 9.3vh;
-  padding: 11.3rem 6.5rem;
+  // position: fixed;
+  // margin-top: 9.3vh;
+  // padding: 11.3rem 6.5rem;
 }
 
 .skill-card {

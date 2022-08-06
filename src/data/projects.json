@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Movie app",
+    "description": "Database for all movies, sorted by the generes",
+    "url": "https://i.ibb.co/h7SzNVr/clapperboard.png",
+    "tecs": "Html, Scss, JavaScript, Vue.js, Vite"
+  },
+  {
+    "title": "Mapty app",
+    "description": "Modern map for saving workouts and more things",
+    "url": "https://i.ibb.co/Njh6SV8/map.png",
+    "tecs": "JavaScript, OOP, CSS, HTML"
+  },
+  {
+    "title": "Facebook clone",
+    "description": "Cloning facebook style with some javascript",
+    "url": "https://i.ibb.co/JvKrvHn/facebook.png",
+    "tecs": "Nunjucks (HTML), Sass, JavaScript"
+  }
+]

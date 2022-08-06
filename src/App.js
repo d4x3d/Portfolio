@@ -4,6 +4,7 @@ import MainPage from "./components/MainPage/MainPage";
 import SkillsComponent from "./components/Skills/SkillsComponent/SkillsComponent";
 import ReactPageScroller from "react-page-scroller";
 import BlobsBc from "./components/BlobsAnimation/BlobsAnimation";
+import ProjectCard from "./components/Projects/ProjectCard";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <MainPage />
         <div className="h-100 w-100 d-flex align-items-center">
           <SkillsComponent />
+        </div>
+        <div className="h-100 w-100 d-flex align-items-center">
+          <ProjectCard />
         </div>
       </ReactPageScroller>
     </div>

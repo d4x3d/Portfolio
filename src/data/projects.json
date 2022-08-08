@@ -6,6 +6,12 @@
     "tecs": "Html, Scss, JavaScript, Vue.js, Vite"
   },
   {
+    "title": "World population",
+    "description": "World population, Data vizualization with d3",
+    "url": "https://i.ibb.co/DC6Ykkw/analysis.png",
+    "tecs": "JavaScript, D3.js, HTML, CSS, Bootstrap, JQuery"
+  },
+  {
     "title": "Mapty app",
     "description": "Modern map for saving workouts and more things",
     "url": "https://i.ibb.co/Njh6SV8/map.png",

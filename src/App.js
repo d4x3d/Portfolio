@@ -11,12 +11,12 @@ function App() {
     <div className="App">
       {/* <BlobsBc /> */}
       {/* <h1 className="test">test</h1> */}
-      <ReactPageScroller>
+      <ReactPageScroller animationTimer={700}>
         <MainPage />
         <div className="h-100 w-100 d-flex align-items-center">
           <SkillsComponent />
         </div>
-        <div className="h-100 w-100 d-flex align-items-center">
+        <div className="h-100 w-100 d-flex align-items-center justify-content-center">
           <ProjectCard />
         </div>
       </ReactPageScroller>

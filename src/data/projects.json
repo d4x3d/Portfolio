@@ -3,13 +3,15 @@
     "title": "Movie app",
     "description": "Database for all movies, sorted by the generes",
     "url": "https://i.ibb.co/h7SzNVr/clapperboard.png",
-    "tecs": "Html, Scss, JavaScript, Vue.js, Vite"
+    "tecs": "Html, Scss, JavaScript, Vue.js, Vite",
+    "demo": "https://movie-vue-alaa.netlify.app/"
   },
   {
     "title": "World population",
     "description": "World population, Data vizualization with d3",
     "url": "https://i.ibb.co/DC6Ykkw/analysis.png",
-    "tecs": "JavaScript, D3.js, HTML, CSS, Bootstrap, JQuery"
+    "tecs": "JavaScript, D3.js, HTML, CSS, Bootstrap, JQuery",
+    "demo": "https://world-population-gdp-d-viz.netlify.app/"
   },
   {
     "title": "Mapty app",

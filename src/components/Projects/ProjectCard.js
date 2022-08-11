@@ -53,7 +53,11 @@ function ProjectCard() {
             <p className="proj-card-body__tec">{card.tecs}</p>
           </div>
           <div className="proj-btn-container">
-            <span className="proj-btn-container__text">Learn more</span>
+            <span className="proj-btn-container__text">
+              <a href={card.demo} target="_blank">
+                Learn more
+              </a>
+            </span>
             <div className="arrow-container">
               <img className="arrow-container__arrow" src={arrow} />
             </div>

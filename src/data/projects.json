@@ -24,5 +24,11 @@
     "description": "Cloning facebook style with some javascript",
     "url": "https://i.ibb.co/JvKrvHn/facebook.png",
     "tecs": "Nunjucks (HTML), Sass, JavaScript"
+  },
+  {
+    "title": "XO Game",
+    "description": "X O Tic Tac Toe game",
+    "url": "https://i.ibb.co/4TVn078/game.png",
+    "tecs": "https://xo-game-react.netlify.app/"
   }
 ]

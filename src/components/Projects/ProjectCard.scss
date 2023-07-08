@@ -111,10 +111,12 @@
   }
 }
 
-.proj-con.container {
-  margin: 0;
-  display: flex;
-  align-items: center;
+.proj-con {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  width: 100%;
+  align-items: center;
+  // grid-gap: 10rem;
+  grid-row-gap: 1rem;
+  // grid-column-gap: 10rem;
 }
